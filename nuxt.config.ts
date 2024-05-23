@@ -44,7 +44,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@pinia/nuxt',
-    'nuxt-aos'
+    'nuxt-aos',
+    '@nuxtjs/robots',
   ],
   css: [],
 
