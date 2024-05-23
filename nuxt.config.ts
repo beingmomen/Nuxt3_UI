@@ -46,6 +46,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-aos',
     '@nuxtjs/robots',
+    '@formkit/auto-animate'
   ],
   css: [],
 
