@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "",
+          content: "Welcome to my personal website I'm [Your Name], a passionate [Your Profession/Interest] with over [Number of Years of Experience] years of experience. Explore my portfolio to see my work, learn more about my journey, and get in touch to discuss potential collaborations. Let's create something amazing together",
         },
         {
           name: "keywords",
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       ],
       htmlAttrs: {
         class: "",
-        lang: "",
+        lang: "ar",
       },
       script: [],
       link: [
@@ -30,6 +30,9 @@ export default defineNuxtConfig({
       ],
     },
     pageTransition: { name: 'page', mode: 'out-in' }
+  },
+  nitro: {
+    compressPublicAssets: true,
   },
   devtools: { enabled: true },
   modules: [
