@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ useLang() }}
+    {{ useLDir() }}
     <div>Index</div>
     <p>{{ $t("welcome") }}</p>
   </div>

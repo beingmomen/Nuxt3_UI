@@ -1,5 +1,5 @@
 <template>
-  <div :dir="useLang()">
+  <div :dir="useLDir()">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
