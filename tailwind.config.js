@@ -4,7 +4,6 @@ export default {
     "./pages/**/*.{html,js}",
     "./components/**/*.{html,js}",
     "./app.vue",
-    "docs/content/**/*.md",
   ],
   theme: {
     extend: {

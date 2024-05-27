@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ useLDir() }}
+    {{ useDir() }}
     <div>Index</div>
     <p>{{ $t("welcome") }}</p>
   </div>

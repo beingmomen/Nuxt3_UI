@@ -1,5 +1,5 @@
 <template>
-  <div :dir="useLDir()">
+  <div :dir="useDir()">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
